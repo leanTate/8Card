@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using DAL;
+using BE;
+using Services;
+using BDE;
 
 namespace ByteCard.Controllers
 {
@@ -7,13 +9,16 @@ namespace ByteCard.Controllers
     [Route("[controller]")]
     public class UserController : Controller
     {
-        ConectionDB conection = new ConectionDB();
-        
-        [HttpGet]
-        public IActionResult Get()
+        [HttpPost]
+        public IActionResult Login([FromBody]Users usr)
         {
-            var a = conection.Read("SELECT * FROM Users");
-            return Ok(a);
+            try {
+                
+                bool auth = BDE.Login.login(usr.mail, HashService.hashPass(usr.password));
+                return auth ? Ok(true) : BadRequest(false);
+            }catch(Exception ex){
+                return BadRequest(ex);
+            }
         }
     }
 }

@@ -8,7 +8,13 @@ namespace BE
 {
     public class Users
     {
-        public string name { get; set; }
-        public string lastname { get; set; }
+        public Users(string mail, string password)
+        {
+            this.mail = mail;
+            this.password = password;
+        }
+
+        public string mail { get; set; }
+        public string password { get; set; }
     }
 }

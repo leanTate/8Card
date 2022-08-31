@@ -32,27 +32,24 @@ namespace DAL
                 sqlConnection.Close();
             }
         }
-        public List<Users> Read(string query){
-
+        public static bool Login(string query){
+            ConectionDB connect = new ConectionDB();
             SqlDataReader reader = null;
             //instancia una tabla de datos
             //abre la conexion con el metodo privado
             SqlCommand sqlCmd = new SqlCommand();
             sqlCmd.CommandType = CommandType.Text;
             sqlCmd.CommandText = query;
-            sqlCmd.Connection = this.sqlConnection;
-            OpenConnection();
+            sqlCmd.Connection = connect.sqlConnection;
+            connect.OpenConnection();
             reader = sqlCmd.ExecuteReader();
-            List<Users> users = new List<Users>();
+            string a="" ;
             while (reader.Read())
             {
-                Users usr = new Users();
-                usr.name = reader.GetValue(0).ToString();
-                usr.lastname = reader.GetValue(1).ToString();
-                users.Add(usr);
+                a = reader.GetValue(4).ToString();
             }
-            CloseConnection();
-            return users;
+            connect.CloseConnection();
+            return a != "" ? true : false;
         }
     }
 }

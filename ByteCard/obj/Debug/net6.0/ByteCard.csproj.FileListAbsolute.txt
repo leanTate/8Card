@@ -71,3 +71,5 @@ C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\bin\Debug\net6.0\DAL.pdb
 C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\bin\Debug\net6.0\dotenv.net.dll
 C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\bin\Debug\net6.0\DotNetEnv.dll
 C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\bin\Debug\net6.0\Sprache.dll
+C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\bin\Debug\net6.0\Services.dll
+C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\bin\Debug\net6.0\Services.pdb

@@ -1468,6 +1468,16 @@
         "runtime": {
           "bin/placeholder/DAL.dll": {}
         }
+      },
+      "Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.dll": {}
+        }
       }
     }
   },
@@ -5244,12 +5254,18 @@
       "type": "project",
       "path": "../DAL/DAL.csproj",
       "msbuildProject": "../DAL/DAL.csproj"
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "path": "../Services/Services.csproj",
+      "msbuildProject": "../Services/Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "BDE >= 1.0.0",
       "BE >= 1.0.0",
+      "Services >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -5290,6 +5306,9 @@
             },
             "C:\\Users\\lean\\OneDrive\\Documents\\repos\\8card\\BE\\BE.csproj": {
               "projectPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\8card\\BE\\BE.csproj"
+            },
+            "C:\\Users\\lean\\OneDrive\\Documents\\repos\\8card\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\8card\\Services\\Services.csproj"
             }
           }
         }

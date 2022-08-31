@@ -1,0 +1,12 @@
+C:\Users\lean\OneDrive\Documents\repos\8card\Services\bin\Debug\net6.0\Services.deps.json
+C:\Users\lean\OneDrive\Documents\repos\8card\Services\bin\Debug\net6.0\Services.dll
+C:\Users\lean\OneDrive\Documents\repos\8card\Services\bin\Debug\net6.0\Services.pdb
+C:\Users\lean\OneDrive\Documents\repos\8card\Services\obj\Debug\net6.0\Services.csproj.AssemblyReference.cache
+C:\Users\lean\OneDrive\Documents\repos\8card\Services\obj\Debug\net6.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lean\OneDrive\Documents\repos\8card\Services\obj\Debug\net6.0\Services.AssemblyInfoInputs.cache
+C:\Users\lean\OneDrive\Documents\repos\8card\Services\obj\Debug\net6.0\Services.AssemblyInfo.cs
+C:\Users\lean\OneDrive\Documents\repos\8card\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\lean\OneDrive\Documents\repos\8card\Services\obj\Debug\net6.0\Services.dll
+C:\Users\lean\OneDrive\Documents\repos\8card\Services\obj\Debug\net6.0\refint\Services.dll
+C:\Users\lean\OneDrive\Documents\repos\8card\Services\obj\Debug\net6.0\Services.pdb
+C:\Users\lean\OneDrive\Documents\repos\8card\Services\obj\Debug\net6.0\ref\Services.dll
