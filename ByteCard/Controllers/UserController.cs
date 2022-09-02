@@ -9,20 +9,20 @@ namespace ByteCard.Controllers
     [Route("[controller]")]
     public class UserController : Controller
     {
-        [HttpPost]
+        [HttpPost("/login")]
         public IActionResult Login([FromBody] loginSchemma usr)
         {
-            try {
-                string hashpass = HashService.hashPass(usr.password);
-                UserDAO userDAO = new UserDAO();
-                User response = userDAO.Login(usr.mail);
-                Console.WriteLine(response.mail);
-                return response.mail ==usr.mail && response.password == hashpass? Ok(true) : BadRequest(false);
-                
-            }
-            catch(Exception ex){
-                return BadRequest(ex);
-            }
+            string hashpass = HashService.hashPass(usr.password);
+            UserDAO userDAO = new UserDAO();
+            User response = userDAO.Login(usr.mail);
+            bool log = response.mail == usr.mail && response.password == hashpass ? session.login(response) : false;
+            return log ? Ok(true) : BadRequest(false); 
+            
+        }
+        [HttpPost("/logout")]
+        public IActionResult Logout()
+        {
+            return Ok(session.logout());
         }
     }
 }

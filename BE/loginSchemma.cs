@@ -8,7 +8,7 @@ namespace BE
 {
     public class loginSchemma
     {
-        public string mail { get; set; }
-        public string password { get; set; }
+        public string mail { get; set; } = "";
+        public string password { get; set; } = "";
     }
 }

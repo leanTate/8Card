@@ -17,7 +17,7 @@ namespace DAL
         }
         public User Login(string mail)
         {
-                User user = new User();
+            User user = new User();
             try
             {
                 ConectionDB connect = new ConectionDB();
