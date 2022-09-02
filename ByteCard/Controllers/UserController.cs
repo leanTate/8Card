@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using BE;
 using Services;
-using BDE;
+using DAL;
 
 namespace ByteCard.Controllers
 {
@@ -10,13 +10,17 @@ namespace ByteCard.Controllers
     public class UserController : Controller
     {
         [HttpPost]
-        public IActionResult Login([FromBody]Users usr)
+        public IActionResult Login([FromBody] loginSchemma usr)
         {
             try {
+                string hashpass = HashService.hashPass(usr.password);
+                UserDAO userDAO = new UserDAO();
+                User response = userDAO.Login(usr.mail);
+                Console.WriteLine(response.mail);
+                return response.mail ==usr.mail && response.password == hashpass? Ok(true) : BadRequest(false);
                 
-                bool auth = BDE.Login.login(usr.mail, HashService.hashPass(usr.password));
-                return auth ? Ok(true) : BadRequest(false);
-            }catch(Exception ex){
+            }
+            catch(Exception ex){
                 return BadRequest(ex);
             }
         }
