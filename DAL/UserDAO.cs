@@ -5,7 +5,8 @@ using System.Text;
 using System.Data;
 using System.Data.SqlClient;
 using System.Threading.Tasks;
-using BE;
+using BE.entites;
+using BE.DTO;
 
 namespace DAL
 {
@@ -45,6 +46,22 @@ namespace DAL
                 Console.WriteLine(ex.Message);
             }
             return user;
+        }
+        public bool Register(RegisterDto user) {
+            try {
+                ConectionDB connect = new ConectionDB();
+                connect.OpenConnection();
+                SqlCommand sqlCmd = new SqlCommand();
+                sqlCmd.CommandType = CommandType.Text;
+                sqlCmd.CommandText = $"insert into users(username,pass,lastname,email,cel,dni) values('{user.userName}','{user.password}','{user.lastName}','{user.mail}',{user.celphone},{user.dni})";
+                sqlCmd.Connection = connect.sqlConnection;
+                sqlCmd.ExecuteNonQuery();
+                connect.CloseConnection();
+                return true;
+            } catch (Exception ex) {
+                Console.WriteLine(ex.Message);
+                return false; 
+            }
         }
     }
 }

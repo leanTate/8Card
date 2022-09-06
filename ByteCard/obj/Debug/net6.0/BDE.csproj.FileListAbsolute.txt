@@ -82,3 +82,15 @@ C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\obj\Debug\net6.0\refint\BD
 C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\obj\Debug\net6.0\BDE.pdb
 C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\obj\Debug\net6.0\BDE.genruntimeconfig.cache
 C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\obj\Debug\net6.0\ref\BDE.dll
+C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\lean\OneDrive\Documents\repos\8card\ByteCard\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
