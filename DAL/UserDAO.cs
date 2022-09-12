@@ -21,7 +21,7 @@ namespace DAL
             User user = new User();
             try
             {
-                ConectionDB connect = new ConectionDB();
+                ConectionDB connect = ConectionDB.Instance;
                 SqlDataReader reader = null;
                 SqlCommand sqlCmd = new SqlCommand();
                 sqlCmd.CommandType = CommandType.Text;
@@ -49,7 +49,7 @@ namespace DAL
         }
         public bool Register(RegisterDto user) {
             try {
-                ConectionDB connect = new ConectionDB();
+                ConectionDB connect = ConectionDB.Instance;
                 connect.OpenConnection();
                 SqlCommand sqlCmd = new SqlCommand();
                 sqlCmd.CommandType = CommandType.Text;

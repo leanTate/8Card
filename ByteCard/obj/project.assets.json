@@ -1782,7 +1782,7 @@
           "bin/placeholder/DAL.dll": {}
         }
       },
-      "Services/1.0.0": {
+      "Security/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -1792,10 +1792,10 @@
           "System.IdentityModel.Tokens.Jwt": "6.22.1"
         },
         "compile": {
-          "bin/placeholder/Services.dll": {}
+          "bin/placeholder/Security.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Services.dll": {}
+          "bin/placeholder/Security.dll": {}
         }
       }
     }
@@ -5913,10 +5913,10 @@
       "path": "../DAL/DAL.csproj",
       "msbuildProject": "../DAL/DAL.csproj"
     },
-    "Services/1.0.0": {
+    "Security/1.0.0": {
       "type": "project",
-      "path": "../Services/Services.csproj",
-      "msbuildProject": "../Services/Services.csproj"
+      "path": "../Services/Security.csproj",
+      "msbuildProject": "../Services/Security.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5926,29 +5926,29 @@
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.8",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.8",
       "Microsoft.IdentityModel.Tokens >= 6.22.1",
-      "Services >= 1.0.0",
+      "Security >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3",
       "System.IdentityModel.Tokens.Jwt >= 6.22.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lean\\.nuget\\packages\\": {},
+    "C:\\Users\\Leandro\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\8card\\ByteCard\\BDE.csproj",
+      "projectUniqueName": "C:\\Users\\Leandro\\Documents\\8Card\\ByteCard\\BDE.csproj",
       "projectName": "BDE",
-      "projectPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\8card\\ByteCard\\BDE.csproj",
-      "packagesPath": "C:\\Users\\lean\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\8card\\ByteCard\\obj\\",
+      "projectPath": "C:\\Users\\Leandro\\Documents\\8Card\\ByteCard\\BDE.csproj",
+      "packagesPath": "C:\\Users\\Leandro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Leandro\\Documents\\8Card\\ByteCard\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Leandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5963,14 +5963,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\lean\\OneDrive\\Documents\\repos\\8card\\BE\\BE.csproj": {
-              "projectPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\8card\\BE\\BE.csproj"
+            "C:\\Users\\Leandro\\Documents\\8Card\\BE\\BE.csproj": {
+              "projectPath": "C:\\Users\\Leandro\\Documents\\8Card\\BE\\BE.csproj"
             },
-            "C:\\Users\\lean\\OneDrive\\Documents\\repos\\8card\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\8card\\DAL\\DAL.csproj"
+            "C:\\Users\\Leandro\\Documents\\8Card\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\Leandro\\Documents\\8Card\\DAL\\DAL.csproj"
             },
-            "C:\\Users\\lean\\OneDrive\\Documents\\repos\\8card\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\8card\\Services\\Services.csproj"
+            "C:\\Users\\Leandro\\Documents\\8Card\\Services\\Security.csproj": {
+              "projectPath": "C:\\Users\\Leandro\\Documents\\8Card\\Services\\Security.csproj"
             }
           }
         }

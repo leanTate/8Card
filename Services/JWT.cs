@@ -8,7 +8,7 @@ using Microsoft.IdentityModel.Tokens;
 using BE.entites;
 using System.IdentityModel.Tokens.Jwt;
 
-namespace Services
+namespace Security
 {
     public class JWT
     {

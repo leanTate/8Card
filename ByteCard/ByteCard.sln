@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BE", "..\BE\BE.csproj", "{F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "..\DAL\DAL.csproj", "{AD044584-C3DD-437A-A60D-27E436FAFB09}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "..\Services\Services.csproj", "{0CF1376B-5ADB-405F-990E-47256045645C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Security", "..\Services\Security.csproj", "{0CF1376B-5ADB-405F-990E-47256045645C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

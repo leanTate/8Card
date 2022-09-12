@@ -6,17 +6,27 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Threading.Tasks;
 using BE;
+using System.Diagnostics;
 
 namespace DAL
 {
-    public class ConectionDB
+    internal sealed class ConectionDB
     {
+        private static ConectionDB _instance = null;
     public SqlConnection sqlConnection;
-        public ConectionDB()
+        private ConectionDB()
         {
             DotNetEnv.Env.TraversePath().Load();
             var connection = Environment.GetEnvironmentVariable("CONNECTIONSTR");
             sqlConnection = new SqlConnection(connection);
+        }
+        public static ConectionDB Instance
+        {
+            get {
+                if (_instance == null)_instance = new ConectionDB();
+
+                return _instance; 
+            }
         }
         public void OpenConnection()
         {

@@ -17,7 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BE\BE.csproj" />
     <ProjectReference Include="..\DAL\DAL.csproj" />
-    <ProjectReference Include="..\Services\Services.csproj" />
+    <ProjectReference Include="..\Services\Security.csproj" />
   </ItemGroup>
 
 </Project>

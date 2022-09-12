@@ -4961,23 +4961,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lean\\.nuget\\packages\\": {},
+    "C:\\Users\\Leandro\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\8card\\Services\\Services.csproj",
-      "projectName": "Services",
-      "projectPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\8card\\Services\\Services.csproj",
-      "packagesPath": "C:\\Users\\lean\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\8card\\Services\\obj\\",
+      "projectUniqueName": "C:\\Users\\Leandro\\Documents\\8Card\\Services\\Security.csproj",
+      "projectName": "Security",
+      "projectPath": "C:\\Users\\Leandro\\Documents\\8Card\\Services\\Security.csproj",
+      "packagesPath": "C:\\Users\\Leandro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Leandro\\Documents\\8Card\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Leandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4992,8 +4992,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\lean\\OneDrive\\Documents\\repos\\8card\\BE\\BE.csproj": {
-              "projectPath": "C:\\Users\\lean\\OneDrive\\Documents\\repos\\8card\\BE\\BE.csproj"
+            "C:\\Users\\Leandro\\Documents\\8Card\\BE\\BE.csproj": {
+              "projectPath": "C:\\Users\\Leandro\\Documents\\8Card\\BE\\BE.csproj"
             }
           }
         }

@@ -13,7 +13,7 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.8",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.8",
           "Microsoft.IdentityModel.Tokens": "6.22.1",
-          "Services": "1.0.0",
+          "Security": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3",
           "System.IdentityModel.Tokens.Jwt": "6.22.1"
         },
@@ -986,7 +986,7 @@
           "DAL.dll": {}
         }
       },
-      "Services/1.0.0": {
+      "Security/1.0.0": {
         "dependencies": {
           "BE": "1.0.0",
           "DotNetEnv": "2.3.0",
@@ -994,7 +994,7 @@
           "System.IdentityModel.Tokens.Jwt": "6.22.1"
         },
         "runtime": {
-          "Services.dll": {}
+          "Security.dll": {}
         }
       }
     }
@@ -1743,7 +1743,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Services/1.0.0": {
+    "Security/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

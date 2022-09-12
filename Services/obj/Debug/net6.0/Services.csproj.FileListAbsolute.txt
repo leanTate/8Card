@@ -25,3 +25,6 @@ C:\Users\Leandro\Documents\8Card\Services\obj\Debug\net6.0\ref\Services.dll
 C:\Users\lean\OneDrive\Documents\repos\8card\Services\bin\Debug\net6.0\BE.dll
 C:\Users\lean\OneDrive\Documents\repos\8card\Services\bin\Debug\net6.0\BE.pdb
 C:\Users\lean\OneDrive\Documents\repos\8card\Services\obj\Debug\net6.0\Services.csproj.CopyComplete
+C:\Users\Leandro\Documents\8Card\Services\bin\Debug\net6.0\BE.dll
+C:\Users\Leandro\Documents\8Card\Services\bin\Debug\net6.0\BE.pdb
+C:\Users\Leandro\Documents\8Card\Services\obj\Debug\net6.0\Services.csproj.CopyComplete

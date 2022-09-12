@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using BE;
-using Services;
+using Security;
 using DAL;
 using BE.entites;
 using BE.DTO;
@@ -35,13 +35,8 @@ namespace ByteCard.Controllers
             user.celphone = SQLresponse.celphone;
             user.dni = SQLresponse.dni;
             user.token = token;
-            bool log = SQLresponse.mail == request.mail && SQLresponse.password == hashpass ? session.login(SQLresponse) : false;
+            bool log = SQLresponse.mail == request.mail && SQLresponse.password == hashpass ? true : false;
             return log ? Ok(user) : BadRequest(false); 
-        }
-        [HttpPost("/logout")]
-        public IActionResult Logout()
-        {
-            return Ok(session.logout());
         }
     }
 }
