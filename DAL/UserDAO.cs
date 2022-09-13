@@ -32,7 +32,7 @@ namespace DAL
                 while (reader.Read())
                 {
                     user.id = Convert.ToInt32(reader.GetValue(0));
-                    user.userName = reader.GetValue(1).ToString();
+                    user.userName= reader.GetValue(1).ToString();
                     user.lastName = reader.GetValue(2).ToString();
                     user.mail = reader.GetValue(3).ToString();
                     user.password= reader.GetValue(4).ToString();
