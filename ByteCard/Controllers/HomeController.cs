@@ -17,7 +17,7 @@ namespace ByteCard.Controllers
             Validator jwtvalidator = new Validator();
             Actions actions = new Actions();
             var validate = jwtvalidator.validateToken(reqToken);
-            return validate == true ? Ok(actions.Transaction(request)) : BadRequest("Invalid Token");
+            return validate == true && request.cash>=request.amount ? Ok(actions.Transaction(request)) : BadRequest("Transaction Failed");
         }
     }
 }

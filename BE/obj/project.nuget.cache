@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+8vdie0NbdAyEi6e9yQrk7c/LCAM1UTR0suJTi9k+SR43oTGoLtCmW5YVp9HCvo/mby/akkToVdrNnc2L29W8g==",
+  "dgSpecHash": "aBzTGoy9zQg2N2mQ9JF9xHa2C58Rh5fWw0sR//eIN1zSEpDMTtaXMywXQSCnphG0tHs27f/u++Q9rjmeuEZS7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lean\\Documents\\repo\\8Card\\BE\\BE.csproj",
+  "projectFilePath": "C:\\Users\\Leandro\\Documents\\8Card\\BE\\BE.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

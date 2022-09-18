@@ -8,6 +8,7 @@ namespace BE.DTO
 {
     public class transactionDto
     {
+        public int cash { get; set; }
         public int amount { get; set; }
         public string destinatary { get; set; } = string.Empty;
         public string origin { get; set; } = string.Empty;
