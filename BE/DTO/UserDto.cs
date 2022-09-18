@@ -14,5 +14,8 @@ namespace BE.DTO
         public string mail { get; set; } = string.Empty;
         public int dni { get; set; }
         public int celphone { get; set; }
+        public int saldo { get; set; }
+        public int cbu { get; set; }
+        
     }
 }

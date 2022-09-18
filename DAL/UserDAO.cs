@@ -38,6 +38,8 @@ namespace DAL
                     user.password= reader.GetValue(4).ToString();
                     user.dni = Convert.ToInt32(reader.GetValue(5));
                     user.celphone = Convert.ToInt32(reader.GetValue(6));
+                    user.cbu = Convert.ToInt32(reader.GetValue(7));
+                    user.saldo = Convert.ToInt32(reader.GetValue(8));
                 }
                 connect.CloseConnection();
                 return user;
@@ -47,13 +49,13 @@ namespace DAL
             }
             return user;
         }
-        public bool Register(RegisterDto user) {
+        public bool Register(RegisterDto user,int cbu) {
             try {
                 ConectionDB connect = ConectionDB.Instance;
                 connect.OpenConnection();
                 SqlCommand sqlCmd = new SqlCommand();
                 sqlCmd.CommandType = CommandType.Text;
-                sqlCmd.CommandText = $"insert into users(username,pass,lastname,email,cel,dni) values('{user.userName}','{user.password}','{user.lastName}','{user.mail}',{user.celphone},{user.dni})";
+                sqlCmd.CommandText = $"insert into users(username,pass,lastname,email,cel,dni,saldo,cbu) values('{user.userName}','{user.password}','{user.lastName}','{user.mail}',{user.celphone},{user.dni},0,{cbu})";
                 sqlCmd.Connection = connect.sqlConnection;
                 sqlCmd.ExecuteNonQuery();
                 connect.CloseConnection();

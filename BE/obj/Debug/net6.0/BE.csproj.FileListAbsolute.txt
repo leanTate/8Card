@@ -46,3 +46,15 @@ C:\Users\lean\Documents\repo\8Card\BE\obj\Debug\net6.0\BE.dll
 C:\Users\lean\Documents\repo\8Card\BE\obj\Debug\net6.0\refint\BE.dll
 C:\Users\lean\Documents\repo\8Card\BE\obj\Debug\net6.0\BE.pdb
 C:\Users\lean\Documents\repo\8Card\BE\obj\Debug\net6.0\ref\BE.dll
+C:\Users\lean\Documents\8Card\BE\bin\Debug\net6.0\BE.deps.json
+C:\Users\lean\Documents\8Card\BE\bin\Debug\net6.0\BE.dll
+C:\Users\lean\Documents\8Card\BE\bin\Debug\net6.0\BE.pdb
+C:\Users\lean\Documents\8Card\BE\obj\Debug\net6.0\BE.csproj.AssemblyReference.cache
+C:\Users\lean\Documents\8Card\BE\obj\Debug\net6.0\BE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lean\Documents\8Card\BE\obj\Debug\net6.0\BE.AssemblyInfoInputs.cache
+C:\Users\lean\Documents\8Card\BE\obj\Debug\net6.0\BE.AssemblyInfo.cs
+C:\Users\lean\Documents\8Card\BE\obj\Debug\net6.0\BE.csproj.CoreCompileInputs.cache
+C:\Users\lean\Documents\8Card\BE\obj\Debug\net6.0\BE.dll
+C:\Users\lean\Documents\8Card\BE\obj\Debug\net6.0\refint\BE.dll
+C:\Users\lean\Documents\8Card\BE\obj\Debug\net6.0\BE.pdb
+C:\Users\lean\Documents\8Card\BE\obj\Debug\net6.0\ref\BE.dll

@@ -10,6 +10,15 @@ namespace ByteCard.Controllers
     [Route("[controller]")]
     public class HomeController : Controller
     {
+        [HttpGet]
+        public IActionResult getData(string token)
+        {
+            var reqToken = JWT.ReadToken(token);
+            Validator jwtvalidator = new Validator();
+            Actions actions = new Actions();
+            var validate = jwtvalidator.validateToken(reqToken);
+            return validate == true ? Ok(actions.getData(reqToken)) : BadRequest();
+        }
         [HttpPost("/transaction")]
         public IActionResult transaction(transactionDto request)
         {
@@ -18,6 +27,12 @@ namespace ByteCard.Controllers
             Actions actions = new Actions();
             var validate = jwtvalidator.validateToken(reqToken);
             return validate == true && request.cash>=request.amount ? Ok(actions.Transaction(request)) : BadRequest("Transaction Failed");
+        }
+        [HttpPost("/Deposit")]
+        public IActionResult Deposit(DepositDto request)
+        {
+            Actions actions = new Actions();
+            return actions.Deposit(request) == true? Ok("deposit is Ok") : BadRequest("Deposit Failed");
         }
     }
 }

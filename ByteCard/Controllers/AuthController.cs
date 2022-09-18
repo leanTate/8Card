@@ -18,7 +18,8 @@ namespace ByteCard.Controllers
             string hashpass = HashService.hashPass(usr.password);
             UserDAO userDAO = new UserDAO();
             usr.password = hashpass;
-            return userDAO.Register(usr) ? Ok(true) : BadRequest(false);
+            int cbu = new Random().Next(100000000, 999999999);
+            return userDAO.Register(usr,cbu) ? Ok(true) : BadRequest(false);
         }
         [HttpPost("/login")]
         public IActionResult Login([FromBody] LoginDto request)
@@ -35,6 +36,8 @@ namespace ByteCard.Controllers
             user.celphone = SQLresponse.celphone;
             user.dni = SQLresponse.dni;
             user.token = token;
+            user.saldo = SQLresponse.saldo;
+            user.cbu = SQLresponse.cbu;
             bool log = SQLresponse.mail == request.mail && SQLresponse.password == hashpass ? true : false;
             return log ? Ok(user) : BadRequest(false); 
         }

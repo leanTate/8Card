@@ -16,6 +16,8 @@ namespace BE.entites
         public int dni { get; set; }
         public int celphone { get; set; }
         public string token { get; set; } = string.Empty;
+        public int saldo { get; set; }
+        public int cbu { get; set; }
 
     }
 }
