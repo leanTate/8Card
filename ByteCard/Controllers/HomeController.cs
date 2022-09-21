@@ -11,7 +11,7 @@ namespace ByteCard.Controllers
     public class HomeController : Controller
     {
         [HttpGet]
-        public IActionResult getData(string token)
+        public IActionResult getData([FromBody] string token)
         {
             var reqToken = JWT.ReadToken(token);
             Validator jwtvalidator = new Validator();
