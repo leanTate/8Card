@@ -28,7 +28,7 @@ namespace ByteCard.Controllers
             var validate = jwtvalidator.validateToken(reqToken);
             return validate == true && request.cash>=request.amount ? Ok(actions.Transaction(request)) : BadRequest("Transaction Failed");
         }
-        [HttpPost("/Deposit")]
+        [HttpPost("/deposit")]
         public IActionResult Deposit(DepositDto request)
         {
             Actions actions = new Actions();
